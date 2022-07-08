@@ -1,0 +1,98 @@
+/* HEADER */
+
+@media screen and (max-width: 1199.98px) {
+  #carouselInstruction .carousel-caption {
+    bottom: 15%;
+  }
+  .myCarousel .carousel-caption h1 {
+    font-size: 4vw;
+  }
+  .myCarousel .carousel-caption p {
+    font-size: 1.6vw;
+    margin-bottom: 0.5em;
+  }
+  .myCarousel .carousel-caption button {
+    font-size: 1.5vw;
+    padding: 0.8em 1em;
+  }
+  .offer__content .offer__item {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .navHeader .navbar-brand p:first-child {
+    font-size: 3vw;
+  }
+  .navHeader .navbar-brand p:last-child {
+    font-size: 1.5vw;
+  }
+}
+@media (max-width: 767.98px) {
+  .navHeader .navbar-nav {
+    background-color: #eee;
+    text-align: center;
+  }
+  #navbarHeader .dropdown-menu {
+    background-color: #e0e1e2;
+    border-color: #e0e1e2;
+    text-align: center;
+  }
+  #navbarHeader .dropdown-item {
+    color: black;
+  }
+  .navHeader.container {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .header__left a {
+    display: block;
+  }
+  .footer__form button,
+  .footer__form input {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 415px) {
+  #carouselInstruction {
+    height: 250px;
+  }
+  #carouselInstruction .carousel-item img,
+  #carouselInstruction .carousel-item,
+  #carouselInstruction .carousel-inner {
+    height: 100%;
+  }
+  #carouselInstruction .carousel-item img {
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 428px) {
+  header .header__top {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  header .header__left {
+    text-align: left;
+  }
+  .header__right {
+    margin: 10px auto 0;
+    width: 90%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #navbarHeader .nav-link {
+    font-size: 0.8rem;
+    padding: 5px;
+  }
+  #navbarHeader .nav-item {
+    margin: 0;
+    padding: 0 2px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 992px) {
+  .feedback__bottom {
+    width: 85%;
+  }
+}

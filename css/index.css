@@ -127,6 +127,14 @@ body {
   background-color: transparent;
   color: #ff4f81;
 }
+.navHeader .navbar-toggler {
+  color: #ff4f81;
+  background-color: black;
+  border-radius: 0;
+}
+.navHeader .navbar-toggler:focus {
+  outline: none;
+}
 /* CAROUSEL */
 #carouselInstruction .carousel-caption {
   bottom: 30%;
